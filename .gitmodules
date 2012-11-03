@@ -1,0 +1,3 @@
+[submodule "Libraries/Adafruit_Thermal"]
+	path = Libraries/Adafruit_Thermal
+	url = https://github.com/labatrockwell/Adafruit-Thermal-Printer-Library.git
