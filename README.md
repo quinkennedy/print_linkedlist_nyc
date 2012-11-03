@@ -1,5 +1,6 @@
 Video here: https://vimeo.com/52734448
 --------------------------
+<img src='https://raw.github.com/quinkennedy/print_linkedlist_nyc/master/print%20LinkedList%20NYC.jpg' width=400 height=300></img>
 This is a little project to print "LinkedList NYC". Official rules below
 
 RUNNING
