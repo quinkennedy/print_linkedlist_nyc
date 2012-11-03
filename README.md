@@ -24,6 +24,7 @@ RUNNING
 OVERVIEW
 ======
 I start with a minimal (3-byte) description for each letter. Then I kick off a recursive method that renders each letter as 16 times its original size (in memory). These blown-up versions are placed in a linked list on the heap. At the end I print the linked list memory block in the heap as a bitmap.  
+(NOTE: there is also a version tagged 'stack' which renders the text on the stack instead of as a linked list on the heap, I enjoy that output because it shows all the return pointers and method overhead along with the desired text)
 
 OTHER
 ======
