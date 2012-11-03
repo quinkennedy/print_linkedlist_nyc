@@ -19,7 +19,7 @@ void setup(){
   initChars();
   printer.begin();
   node *root = setList("LinkedList NYC", 14);
-  printer.printBitmap(4*8, 14*4*4+14, (uint8_t*)root, false);
+  printer.printBitmap(4*8, 2000/4, (uint8_t*)(((int)root)%4), false);
   printer.feed(2);
 }
 
