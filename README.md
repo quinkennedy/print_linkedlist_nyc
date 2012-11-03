@@ -23,7 +23,7 @@ RUNNING
 
 OVERVIEW
 ======
-I start with a minimal (3-byte) description for each letter. Then I kick off a recursive method that blows up each letter to 16 times its original size (in memory). These blown-up versions are placed in a linked list on the heap. At the end I print the memory block in the heap containing the linked list as a bitmap.  
+I start with a minimal (3-byte) description for each letter. Then I kick off a recursive method that renders each letter as 16 times its original size (in memory). These blown-up versions are placed in a linked list on the heap. At the end I print the linked list memory block in the heap as a bitmap.  
 
 OTHER
 ======
