@@ -19,6 +19,15 @@ RUNNING
 * Open print_memory.ino, compile, and upload the sketch
 * Enjoy the printer's output
 
+OVERVIEW
+======
+I start with a minimal (3-byte) description for each letter. Then I kick off a recursive method that blows up each letter to 16 times its original size (in memory). and finally print the stack that contains the blown-up letters as a bitmap.
+
+OTHER
+======
+font was developed with the high-tech pixel font editing tool here:
+https://docs.google.com/spreadsheet/ccc?key=0Au1jvUiMMszidF9NQXFMZ3hMbTJPck9tSWVWdDhwQUE
+
 RULES
 ======
 Write a program that prints the text "LinkedList NYC". For example, you could write the following in Python:
