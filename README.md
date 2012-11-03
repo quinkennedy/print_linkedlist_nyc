@@ -2,14 +2,14 @@ This is a little project to print "LinkedList NYC". Official rules below
 
 RUNNING
 =======
-* This assumes you have
-1) A Thermal printer like the one available at Adafruit or Sparkfun
-2) An Arduino Uno (may work on other models, but not tested)
+* This assumes you have  
+1. A Thermal printer like the one available at Adafruit or Sparkfun
+2. An Arduino Uno (may work on other models, but not tested)
 * Download and Install Arduino http://arduino.cc/en/Main/Software
 * Clone this repo:
-1) ```> git clone https://github.com/quinkennedy/print_linkedlist_nyc.git```
-2) ```> git submodule init```
-3) ```> git submodule update```
+1. ```> git clone https://github.com/quinkennedy/print_linkedlist_nyc.git```
+2. ```> git submodule init```
+3. ```> git submodule update```
 * Copy the thermal printer library in this repo at Libraries/Adafruit_Thermal to your Arduino library. On OSX this will result in the path ~/Documents/Arduino/Libraries/Adafruit_Thermal/Adafruit_Thermal.h
 * Connect the Thermal printer to a power supply that provides between 5V and 9V and at least 2A
 * Connect the TX wire (Green wire on my model) to pin 5 on the Arduino
