@@ -7,9 +7,9 @@ RUNNING
     2. An Arduino Uno (may work on other models, but not tested)
 * Download and Install Arduino http://arduino.cc/en/Main/Software
 * Clone this repo:
-    1. ```> git clone https://github.com/quinkennedy/print_linkedlist_nyc.git```
-    2. ```> git submodule init```
-    3. ```> git submodule update```
+    ```> git clone https://github.com/quinkennedy/print_linkedlist_nyc.git
+    > git submodule init
+    > git submodule update```
 * Copy the thermal printer library in this repo at Libraries/Adafruit_Thermal to your Arduino library. On OSX this will result in the path ~/Documents/Arduino/Libraries/Adafruit_Thermal/Adafruit_Thermal.h
 * Connect the Thermal printer to a power supply that provides between 5V and 9V and at least 2A
 * Connect the TX wire (Green wire on my model) to pin 5 on the Arduino
@@ -35,6 +35,6 @@ The winner will get five pints of ice cream delivered to his or her door by the 
 
 Your program must:
 
-print or evaluate to the string "LinkedList NYC"
-be sent to tips@linkedlistnyc.org by 10am Saturday, Nov. 3
-include instructions for how to run it (if it's not easy and obvious)
+* print or evaluate to the string "LinkedList NYC"
+* be sent to tips@linkedlistnyc.org by 10am Saturday, Nov. 3
+* include instructions for how to run it (if it's not easy and obvious)
