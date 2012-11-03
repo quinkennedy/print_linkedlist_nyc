@@ -3,6 +3,11 @@ Video here: https://vimeo.com/52734448
 <img src='https://raw.github.com/quinkennedy/print_linkedlist_nyc/master/print%20LinkedList%20NYC.jpg' width=400 height=300></img>  
 This is a little project to print "LinkedList NYC". Official rules below
 
+OVERVIEW
+======
+I start with a minimal (3-byte) description for each letter. Then I kick off a recursive method that renders each letter as 16 times its original size (in memory). These blown-up versions are placed in a linked list on the heap. At the end I print the entire 2k RAM of the Arduino UNO, and in the midst of the data you can see "LinkedList NYC" clearly printed.
+(NOTE: There is also a version tagged 'stack' which renders the text on the stack instead of as a linked list on the heap. That version is nice too since it shows all the return pointers and method overhead along with the desired text.)
+
 RUNNING
 =======
 * This assumes you have
@@ -17,15 +22,11 @@ RUNNING
 * Connect the Thermal printer to a power supply that provides between 5V and 9V and at least 2A
 * Connect the TX wire (Green wire on my model) to pin 5 on the Arduino
 * Connect the RX wire (Yellow wire) to pin 6 on the Arduino
-* Connect the GND wire (Black) to Gnd on the Arduino
+* Connect the GND wire (Black) to Gnd on the Arduino  
+    <img src='https://raw.github.com/quinkennedy/print_linkedlist_nyc/master/Thermal%20Printer%20Hookup.png' width=200 height=150></img>  
 * Connect the Arduino to your USB port
 * Open print_memory.ino, compile, and upload the sketch
 * Enjoy the printer's output
-
-OVERVIEW
-======
-I start with a minimal (3-byte) description for each letter. Then I kick off a recursive method that renders each letter as 16 times its original size (in memory). These blown-up versions are placed in a linked list on the heap. At the end I print the entire 2k RAM of the Arduino UNO, and in the midst of the data you can see "LinkedList NYC" clearly printed.
-(NOTE: There is also a version tagged 'stack' which renders the text on the stack instead of as a linked list on the heap. That version is nice too since it shows all the return pointers and method overhead along with the desired text.)
 
 OTHER
 ======
