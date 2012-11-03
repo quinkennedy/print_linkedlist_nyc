@@ -32,6 +32,7 @@ https://docs.google.com/spreadsheet/ccc?key=0Au1jvUiMMszidF9NQXFMZ3hMbTJPck9tSWV
 
 RULES
 ======
+(via http://www.linkedlistnyc.org/archive/issue_083.html)  
 Write a program that prints the text "LinkedList NYC". For example, you could write the following in Python:
 
 print "LinkedList NYC"
