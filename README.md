@@ -21,14 +21,13 @@ RUNNING
 
 RULES
 ======
-<pre>
 Write a program that prints the text "LinkedList NYC". For example, you could write the following in Python:
 
 print "LinkedList NYC"
 
 But that wouldn't be much fun. The goal is to do it in the most inventive way. Here's a slightly more interesting version in Bash:
 
-curl -s http://www.linkedlistnyc.org | sed -n 's/ *&lt;h1>\(.*\)&lt;\/h1>/\1/p'
+```curl -s http://www.linkedlistnyc.org | sed -n 's/ *&lt;h1>\(.*\)&lt;\/h1>/\1/p'```
 
 Bonus points if your code contains a pun, is self-referential, or is particularly clever or elegant. It can be as long or short as you like.
 
@@ -39,4 +38,3 @@ Your program must:
 print or evaluate to the string "LinkedList NYC"
 be sent to tips@linkedlistnyc.org by 10am Saturday, Nov. 3
 include instructions for how to run it (if it's not easy and obvious)
-</pre>
