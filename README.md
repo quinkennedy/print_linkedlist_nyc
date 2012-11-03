@@ -28,7 +28,7 @@ print "LinkedList NYC"
 
 But that wouldn't be much fun. The goal is to do it in the most inventive way. Here's a slightly more interesting version in Bash:
 
-curl -s http://www.linkedlistnyc.org | sed -n 's/ *<h1>\(.*\)<\/h1>/\1/p'
+curl -s http://www.linkedlistnyc.org | sed -n 's/ *&lt;h1>\(.*\)&lt;\/h1>/\1/p'
 
 Bonus points if your code contains a pun, is self-referential, or is particularly clever or elegant. It can be as long or short as you like.
 
