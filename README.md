@@ -23,7 +23,7 @@ RUNNING
 * Connect the TX wire (Green wire on my model) to pin 5 on the Arduino
 * Connect the RX wire (Yellow wire) to pin 6 on the Arduino
 * Connect the GND wire (Black) to Gnd on the Arduino  
-    <img src='https://raw.github.com/quinkennedy/print_linkedlist_nyc/master/Thermal%20Printer%20Hookup.png' width=200 height=150></img>  
+    <img src='https://raw.github.com/quinkennedy/print_linkedlist_nyc/master/Thermal%20Printer%20Hookup.png' width=340 height=150></img>  
 * Connect the Arduino to your USB port
 * Open print_memory.ino, compile, and upload the sketch
 * Enjoy the printer's output
